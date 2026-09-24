@@ -1,0 +1,14 @@
+{
+  "name": "askairank",
+  "version": "1.0.0",
+  "description": "See how ChatGPT, Claude, Perplexity, Gemini and other AI engines mention your brand: visibility per engine, the answers that named you, competitors and cited sources. Connects to your AskAiRank account.",
+  "author": {
+    "name": "SupafastTech",
+    "email": "contact@askairank.com",
+    "url": "https://askairank.com"
+  },
+  "homepage": "https://askairank.com/claude",
+  "repository": "https://github.com/supafast-tech/askairank-claude-plugin",
+  "license": "MIT",
+  "keywords": ["ai-visibility", "aeo", "geo", "seo", "brand-monitoring", "marketing", "mcp"]
+}

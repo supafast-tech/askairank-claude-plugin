@@ -1,0 +1,15 @@
+{
+  "name": "askairank-claude-plugin",
+  "description": "AskAiRank plugin: AI visibility tracking for your brand, inside Claude.",
+  "owner": {
+    "name": "SupafastTech",
+    "email": "contact@askairank.com"
+  },
+  "plugins": [
+    {
+      "name": "askairank",
+      "source": "./",
+      "description": "AI visibility for your brand in ChatGPT, Claude, Perplexity and Gemini, from your AskAiRank account."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "askairank": {
+      "type": "http",
+      "url": "https://mcp.askairank.com/mcp"
+    }
+  }
+}
