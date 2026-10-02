@@ -2,7 +2,7 @@
   "mcpServers": {
     "askairank": {
       "type": "http",
-      "url": "https://mcp.askairank.com/mcp"
+      "url": "https://mcp.askairank.com/mcp?src=claude-plugin"
     }
   }
 }
