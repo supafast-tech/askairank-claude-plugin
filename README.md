@@ -1,6 +1,6 @@
 # AskAiRank plugin for Claude Code and Cowork
 
-AskAiRank checks every day how ChatGPT, Claude, Perplexity, Gemini and other AI engines answer the questions your buyers ask, and whether they name your brand. This plugin connects Claude to your AskAiRank account so you can read those results in conversation.
+AskAiRank checks every day how ChatGPT, Claude, Perplexity, Gemini and other AI engines answer the questions your buyers ask, and whether they name your brand. This plugin connects Claude to your AskAiRank account so you can read those results, manage prompts and brand settings, run checks and audits, and get recommendations, all in conversation.
 
 ## What's inside
 
@@ -13,7 +13,15 @@ AskAiRank checks every day how ChatGPT, Claude, Perplexity, Gemini and other AI 
 
 ## Tools
 
-`get_account`, `list_brands`, `get_visibility_summary`, `list_mentions`, `list_competitors`, `compare_with_competitor`, `list_prompts` read data. `add_prompt` adds a tracked question. `run_visibility_check` asks the AI engines one tracked question now and uses one manual check from your plan. Nothing can be deleted and billing is never touched.
+**Read:** `get_account`, `list_brands`, `get_visibility_summary`, `list_mentions`, `list_competitors`, `compare_with_competitor`, `list_prompts`, `list_citation_sources`, `get_recommendations`, `generate_report`, `get_notification_settings`.
+
+**Manage prompts:** `add_prompt`, `update_prompt`, `pause_prompt`, `resume_prompt`, `remove_prompt` (needs `confirm: true`).
+
+**Manage brand:** `update_brand` (name, domain, locale, AI-visibility profile), `update_notification_settings` (alert email, Telegram, severity).
+
+**Run checks:** `run_visibility_check` asks the AI engines one tracked question now; `run_site_audit` scans a site's AI-readiness (robots rules, llms.txt, structured data and more). Both use a manual check or scan from your plan.
+
+Nothing can be deleted for good, your account and brand can't be deleted, billing and plan changes aren't exposed, and passwords, email and team members stay out of reach.
 
 ## Requirements
 
